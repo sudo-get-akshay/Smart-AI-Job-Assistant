@@ -6,11 +6,11 @@ import pdfplumber
 import requests
 
 # --- Configuration ---
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyAOKjR50CAQqb8jDLPk9D61UY8n8JPdJAk")
-SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "861de00f6cd47136e119e04a65dd6107dd18bc14fe0343d19f48892339d0c00b")
-YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "AIzaSyD6z0gu_tAdqk2M5186TS9wgbsfbgyYMaI")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "your_api_key")
+SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "your_SERP_api")
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "your_youtube_api")
 
-GEMINI_MODEL = "gemini-1.5-flash"
+GEMINI_MODEL = "gemini-2.5-flash"
 YOUTUBE_API_URL = "https://www.googleapis.com/youtube/v3/search"
 SERPAPI_URL = "https://serpapi.com/search"
 
